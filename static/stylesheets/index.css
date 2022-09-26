@@ -106,3 +106,42 @@ footer{
 nav img {
     height: 100vh;
 }
+
+#about{
+    font-size: xx-large;
+    position: absolute;
+    left: 40vw;
+}
+#photos{
+    position: relative;
+    top: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+}
+#photos >div{
+border: 0.1px solid  rgb(208, 208, 208);
+box-shadow: 10px 20px 10px  rgba(59, 59, 59, 0.227);
+border-radius: 1%;
+padding: 15px;
+overflow-x: hidden;
+    overflow-y: hidden;
+}
+#photos >div:hover{
+    position: relative;
+    top: -.5em;
+    box-shadow: 10px 20px 10px  rgba(0, 0, 0, 0.227);
+
+}
+#photos div >div h2{
+    position: relative;
+    left: 110px;
+    padding: 5px;
+}
+#photos >div>div a{
+    position: relative;
+    left: 50px;
+    padding: 10px;
+    
+}
