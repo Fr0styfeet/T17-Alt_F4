@@ -1,3 +1,4 @@
+
 .prev{
     cursor: pointer;
     width: auto;
@@ -121,17 +122,18 @@ nav img {
     cursor: pointer;
 }
 #photos >div{
-border: 0.1px solid  rgb(208, 208, 208);
-box-shadow: 10px 20px 10px  rgba(59, 59, 59, 0.227);
-border-radius: 1%;
-padding: 15px;
-overflow-x: hidden;
+    box-shadow: 10px 20px 10px 5px rgba(59, 59, 59, 0.227);
+    border-radius: 1%;
+    padding: 15px;
+    overflow-x: hidden;
     overflow-y: hidden;
+    
 }
 #photos >div:hover{
+    border: 0.1px solid  rgb(182, 180, 180);
     position: relative;
     top: -.5em;
-    box-shadow: 10px 20px 10px  rgba(0, 0, 0, 0.227);
+    box-shadow: 10px 20px 10px 8px rgba(0, 0, 0, 0.227);
 
 }
 #photos div >div h2{
@@ -144,4 +146,57 @@ overflow-x: hidden;
     left: 50px;
     padding: 10px;
     
+}
+
+#updates{
+    position: absolute;
+    top: 0vh;
+    left: 15vh;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid #717171; */
+    background-repeat: no-repeat;
+    background-image:-webkit-image-set();
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("/static/images/WHITE\ BACKGROUND.png");
+    
+}
+#updates h1{
+    position: relative;
+    top: 5vh;
+    left: 63vh;
+    color: white;
+    font-size: 7vh;
+}
+#results{
+    position: relative;
+    top: 2vh;
+    left: 20vh;
+  cursor: pointer;
+
+}
+#re{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    position: absolute;
+    left: 90vh;
+    top: 33vh;
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 7vh;
+  column-gap: 90px;
+} 
+    #re div{
+
+        cursor: pointer;
+    }
+
+#re img{
+/* height: 60vh; */
+width: 60vh;
+
+
+
 }
